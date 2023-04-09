@@ -1,5 +1,3 @@
-"""A class that can be used to represent a restaurant."""
-
 class Restaurant:
 
     def __init__(self, name, type) -> None:
@@ -28,3 +26,17 @@ class Restaurant:
         else:
             print("You need to enter a positive number.")
 
+class IceCreamStand(Restaurant):
+
+    def __init__(self, name, type) -> None:
+        super().__init__(name, type)
+        self.flavors = ['Vanilla', 'Chocolate', 'Strawberry']
+
+    def display_flavors(self):
+        print("The flavors we have are:")
+        for flavor in self.flavors:
+            print(f"\t{flavor}")
+
+ice_cream_stand = IceCreamStand('The Ice Cream Stand', 'Ice Cream')
+ice_cream_stand.describe()
+ice_cream_stand.display_flavors()

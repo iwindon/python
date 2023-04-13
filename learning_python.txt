@@ -1,0 +1,28 @@
+Python Fundamentals and Programming
+
+Introduction to Python
+Strings, Lists and Tuples
+Dictionaries and Sets
+Conditional Execution & Loops
+Comprehensions
+Functions
+Modules
+Scopes and Namespaces
+Intermediate Python
+
+File Handling
+Object Oriented Programming
+Iterator, Generator, Decorators
+Lambda Expressions
+Regular Expression
+Advanced Python
+
+Writing Library
+Building Framework
+Python C Extensions (C code in Python)
+Closure, Function Factory, Method Chaining
+Exception Handling, Context Manager
+Metaclasses, Introspection
+Multithreading, Multiprocessing
+Python In Java (Java Dynamic Language Support)
+Python In C# (C# Dynamic Language Support)
